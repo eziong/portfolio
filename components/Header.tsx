@@ -79,12 +79,12 @@ function Header() {
                     Education
                   </li>
                   <li className={styles.header__social__item}>
-                    <a href="https://github.com/eziong" target="_blank">
+                    <a href="https://github.com/eziong" target="_blank" rel="noopener noreferrer">
                       <GitIcon />
                     </a>
                   </li>
                   <li className={styles.header__social__item}>
-                    <a href="https://eziong.tistory.com/" target="_blank">
+                    <a href="https://eziong.tistory.com/" target="_blank" rel="noopener noreferrer">
                     <WebIcon/>
                     </a>
                   </li>
@@ -116,12 +116,12 @@ function Header() {
                 Education
               </li>
               <li className={styles.header__social__item}>
-                <a href="https://github.com/eziong" target="_blank">
+                <a href="https://github.com/eziong" target="_blank" rel="noopener noreferrer">
                   <GitIcon />
                 </a>
               </li>
               <li className={styles.header__social__item}>
-                <a href="https://eziong.tistory.com/" target="_blank">
+                <a href="https://eziong.tistory.com/" target="_blank" rel="noopener noreferrer">
                 <WebIcon/>
                 </a>
               </li>

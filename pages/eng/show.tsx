@@ -24,6 +24,7 @@ function Show() {
               <div className={styles.profile_image}>
                 <Image 
                   src="/profileImage.jpeg"
+                  alt="profileImage"
                   width={200}
                   height={270}
                 />
@@ -69,6 +70,7 @@ function Show() {
                     src="/randomdraw.webp"
                     width={250}
                     height={250}
+                    alt="randomDraw"
                     objectFit="cover"
                     style={{borderRadius:5}}
                   />
@@ -88,11 +90,11 @@ function Show() {
                   </div>
                   <div>
                     <h3 className={styles.title_small}>Notion</h3>
-                    <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/38fd82736d154d0b912e58971fc438c9" target="_blank">Project datail</a></span>
+                    <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/38fd82736d154d0b912e58971fc438c9" target="_blank" rel="noopener noreferrer">Project datail</a></span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>GitHub</h3>
-                    <span className={styles.link}><a href="https://github.com/eziong/RandomDrawApp" target="_blank">https://github.com/eziong/RandomDrawApp</a></span>
+                    <span className={styles.link}><a href="https://github.com/eziong/RandomDrawApp" target="_blank" rel="noopener noreferrer">https://github.com/eziong/RandomDrawApp</a></span>
                   </div>
                   
                 </div>
@@ -114,6 +116,7 @@ function Show() {
                 </div>
                 <Image
                   src="/front.png"
+                  alt="front"
                   width={250}
                   height={400}
                 />
@@ -127,6 +130,7 @@ function Show() {
                 </div>
                 <Image
                   src="/back.png"
+                  alt="back"
                   width={230}
                   height={400}
                 />
@@ -140,6 +144,7 @@ function Show() {
                 </div>
                 <Image
                   src="/database.png"
+                  alt="database"
                   width={230}
                   height={300}
                 />
@@ -153,6 +158,7 @@ function Show() {
                 </div>
                 <Image
                   src="/mobile.png"
+                  alt="mobile"
                   width={230}
                   height={80}
                   />
@@ -166,6 +172,7 @@ function Show() {
                 </div>
                 <Image
                   src="/deployment.png"
+                  alt="deployment"
                   width={230}
                   height={120}
                 />
@@ -200,11 +207,11 @@ function Show() {
                     Web service with React and Mobile app service with React Native are serving.
                     My job was addiing new services and refactoring the project code.
                     <br /><br />
-                    <a href="https://myzzym.com/" target="_blank" style={{color:'grey'}}>Myzzym Web</a>
+                    <a href="https://myzzym.com/" target="_blank" rel="noopener noreferrer" style={{color:'grey'}}>Myzzym Web</a>
                     <br />
-                    <a href="https://play.google.com/store/apps/details?id=com.myzzymcp&hl=ko&gl=US" target="_blank" style={{color:'grey'}}>Myzzym PlayStore</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.myzzymcp&hl=ko&gl=US" target="_blank" rel="noopener noreferrer" style={{color:'grey'}}>Myzzym PlayStore</a>
                     <br />
-                    <a href="https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4%EC%A7%90/id1546815903" target="_blank" style={{color:'grey'}}>Myzzym AppStore</a>
+                    <a href="https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4%EC%A7%90/id1546815903" target="_blank" rel="noopener noreferrer" style={{color:'grey'}}>Myzzym AppStore</a>
                   </div>
                 </div>
                 <div className={styles.experience_detail}>
@@ -267,6 +274,7 @@ function Show() {
               <div className={styles.education_left}>
                 <Image 
                   src="/education1.jpeg"
+                  alt="education1"
                   width={300}
                   height={300}
                 />
