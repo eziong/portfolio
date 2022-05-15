@@ -12,7 +12,7 @@ function Show() {
       <Head>
         <title>Lee Ji Woong - Projects</title>
         <meta name="description" content="display projects" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/codingOnTheBed.png" />
       </Head>
       <Header />
         <div className={styles.department_aboutme} id="aboutme">
