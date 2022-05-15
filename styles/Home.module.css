@@ -1,116 +1,220 @@
 .container {
-  padding: 0 2rem;
+  padding: 0px;
+  overflow: hidden;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
   display: flex;
+  width: 100vw;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.introduce_name {
   text-align: center;
+  font-size: 128px;
+  font-weight: 720;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+.introduce_text_1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 480;
+
+  animation-name: principle;
+  animation-duration: 2s;
+}
+@-webkit-keyframes principle {
+  0% {
+    color: white;
+    transform: translateX(-400px);
+  }
+  100% {
+    color: black;
+  }
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.introduce_text_2 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 480;
+
+  animation-name: and;
+  animation-duration: 2.5s;
+}
+@-webkit-keyframes and {
+  0% {
+    color: white;
+    transform: translateX(-400px);
+  }
+  100% {
+    color: black;
+  }
 }
 
-.grid {
+.introduce_text_3 {
+  width: 100%;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 480;
+
+  animation-name: solid;
+  animation-duration: 3s;
+}
+@-webkit-keyframes solid {
+  0% {
+    color: white;
+    transform: translateX(400px);
+  }
+  100% {
+    color: black;
+  }
+}
+
+.settings {
   display: flex;
-  align-items: center;
+  width: 100%;
+  max-width: 196px;
+  padding: 12px 0px;
+  margin: 64px auto 0px auto;
+  border: 1px solid black;
+  border-radius: 12px;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  font-size: 36px;
+  text-align: center;
+  cursor: pointer;
 }
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+/*
+*  language modal
+*/
+.modal__fullscreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.modal__container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 500px;
+  height: 100px;
+
+  justify-content: space-between;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+.modal__btn {
+  width: 200px;
+  height: 70px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4.8px 0px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 70px;
+  text-align: center;
+  cursor: pointer;
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .introduce_name {
+    text-align: center;
+    font-size: 72px;
+    font-weight: 720;
+  }
+  
+  .introduce_text_1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 480;
+  }
+  
+  .introduce_text_2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 480;
+  }
+  
+  .introduce_text_3 {
     width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 480;
+  }
+
+  .settings {
+    max-width: 144px;
+    padding: 8px 0px;
+    margin: 64px auto 0px auto;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .introduce_name {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 720;
+  }
+  
+  .introduce_text_1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 480;
+  }
+  
+  .introduce_text_2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 480;
+  }
+  
+  .introduce_text_3 {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 480;
+  }
+
+  .settings {
+    max-width: 144px;
+    padding: 8px 0px;
+    margin: 48px auto 0px auto;
+    font-size: 18px;
+  }
+
+  .modal__container {
+    display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 100%;
+    height: 30%;
+  
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal__btn {
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 1px 4.8px 0px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: center;
+    cursor: pointer;
   }
 }

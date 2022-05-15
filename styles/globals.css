@@ -14,3 +14,35 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@-webkit-keyframes opacityHide {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes opacityShow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bubbleShow {
+  0% {
+    opacity: 0%;
+    transform: translateY(10px);
+  }
+  90% {
+    transform: translateY(-1px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
