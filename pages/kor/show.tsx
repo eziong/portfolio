@@ -82,19 +82,67 @@ function Show() {
                   </p>
                   <div>
                     <h3 className={styles.title_small}>주요 기능</h3>
-                    <span>지정된 범위의 숫자 또는 그룹 내 원소를 랜덤으로 뽑는 어플리케이션</span>
+                    <span className={styles.description_small}>지정된 범위의 숫자 또는 그룹 내 원소를 랜덤으로 뽑는 어플리케이션</span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>Frontend</h3>
-                    <span>React Native</span>
+                    <span className={styles.description_small}>React Native</span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>Notion</h3>
-                    <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/38fd82736d154d0b912e58971fc438c9" target="_blank" rel="noopener noreferrer">Project datail</a></span>
+                    <span className={styles.description_small}>
+                      <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/38fd82736d154d0b912e58971fc438c9" target="_blank" rel="noopener noreferrer">Project datail</a></span>
+                    </span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>GitHub</h3>
-                    <span className={styles.link}><a href="https://github.com/eziong/RandomDrawApp" target="_blank" rel="noopener noreferrer">https://github.com/eziong/RandomDrawApp</a></span>
+                    <span className={styles.description_small}>
+                      <span className={styles.link}><a href="https://github.com/eziong/RandomDrawApp" target="_blank" rel="noopener noreferrer">https://github.com/eziong/RandomDrawApp</a></span>
+                    </span>
+                  </div>
+                  
+                </div>
+              </div>
+            </Bubble>
+            <Bubble>
+              <div className={styles.card__container}>
+                <div className={styles.card_image}>
+                  <Image 
+                    src="/myzzym.jpeg"
+                    width={250}
+                    height={250}
+                    alt="randomDraw"
+                    objectFit="cover"
+                    style={{borderRadius:5}}
+                  />
+                </div>
+                <div className={styles.card_description}>
+                  <h1>채팅 서비스 - 마이짐</h1>
+                  <p className={styles.summary}>
+                    창고 상세 페이지에서 게스트가 호스트에게 문의할 수 있습니다.
+                    마이짐 관리자에게 문의할 수 있습니다.
+                  </p>
+                  <div>
+                    <h3 className={styles.title_small}>Purpose</h3>
+                    <span className={styles.description_small}>게스트에게 창고 대여까지 편의성을 제공합니다.</span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>Frontend</h3>
+                    <span className={styles.description_small}>React, React Native</span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>Frontend</h3>
+                    <span className={styles.description_small}>Node.js[Express]</span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>Notion</h3>
+                    <span className={styles.description_small}>
+                      <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/Myzzym-eaa0b58c3e5b4aad99d7f7c7ecf01992" target="_blank" rel="noopener noreferrer">Project datail</a></span>
+                    </span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>GitHub</h3>
+                    <span className={styles.description_small}>private github - myzzym</span>
                   </div>
                   
                 </div>

@@ -123,6 +123,7 @@
   margin-bottom: 48px;
   background-color: white;
   border-radius: 15px;
+  align-items: center;
 }
 
 .card_image {
@@ -134,7 +135,14 @@
 }
 
 .card_description {
+  width: 100%;
   max-width: 420px;
+}
+
+.description_small {
+  display: block;
+  padding-left: 8px;
+  line-height: 25px;
 }
 
 .skills__container {
@@ -286,6 +294,7 @@
 .summary {
   padding-bottom: 16px;
   border-bottom: 1px solid grey;
+  line-height: 25px;
 }
 
 .detail {

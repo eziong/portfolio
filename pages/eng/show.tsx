@@ -82,19 +82,66 @@ function Show() {
                   </p>
                   <div>
                     <h3 className={styles.title_small}>Purpose</h3>
-                    <span>Application for drawing random number out of certain area or drawing random items from group.</span>
+                    <span className={styles.description_small}>Application for drawing random number out of certain area or drawing random items from group.</span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>Frontend</h3>
-                    <span>React Native</span>
+                    <span className={styles.description_small}>React Native</span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>Notion</h3>
-                    <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/38fd82736d154d0b912e58971fc438c9" target="_blank" rel="noopener noreferrer">Project datail</a></span>
+                    <span className={styles.description_small}>
+                      <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/38fd82736d154d0b912e58971fc438c9" target="_blank" rel="noopener noreferrer">Project datail</a></span>
+                    </span>
                   </div>
                   <div>
                     <h3 className={styles.title_small}>GitHub</h3>
-                    <span className={styles.link}><a href="https://github.com/eziong/RandomDrawApp" target="_blank" rel="noopener noreferrer">https://github.com/eziong/RandomDrawApp</a></span>
+                    <span className={styles.description_small}>
+                      <span className={styles.link}><a href="https://github.com/eziong/RandomDrawApp" target="_blank" rel="noopener noreferrer">https://github.com/eziong/RandomDrawApp</a></span>
+                    </span>
+                  </div>
+                  
+                </div>
+              </div>
+            </Bubble>
+            <Bubble>
+              <div className={styles.card__container}>
+                <div className={styles.card_image}>
+                  <Image 
+                    src="/myzzym.jpeg"
+                    width={250}
+                    height={250}
+                    alt="randomDraw"
+                    objectFit="cover"
+                    style={{borderRadius:5}}
+                  />
+                </div>
+                <div className={styles.card_description}>
+                  <h1>Chatting service - Myzzym</h1>
+                  <p className={styles.summary}>
+                    In storage detail page, guest can contact with host for asking.
+                  </p>
+                  <div>
+                    <h3 className={styles.title_small}>Purpose</h3>
+                    <span className={styles.description_small}>To get easy to approach to rent storage for guest.</span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>Frontend</h3>
+                    <span className={styles.description_small}>React, React Native</span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>Frontend</h3>
+                    <span className={styles.description_small}>Node.js[Express]</span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>Notion</h3>
+                    <span className={styles.description_small}>
+                      <span className={styles.link}><a href="https://coral-ghost-ec2.notion.site/Myzzym-eaa0b58c3e5b4aad99d7f7c7ecf01992" target="_blank" rel="noopener noreferrer">Project datail</a></span>
+                    </span>
+                  </div>
+                  <div>
+                    <h3 className={styles.title_small}>GitHub</h3>
+                    <span className={styles.description_small}>private github - myzzym</span>
                   </div>
                   
                 </div>
