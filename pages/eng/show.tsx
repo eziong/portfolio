@@ -4,7 +4,8 @@ import Title from "../../components/Title";
 import Header from "../../components/Header";
 import Image from "next/image";
 import Bubble from "../../utils/styles/Bubble";
-import classNames from "classnames";
+import Skills from "../../components/Skills";
+
 
 function Show() {
   return (
@@ -153,78 +154,7 @@ function Show() {
           <div className={styles.title}>
             <Title title="Skills"/>
           </div>
-            <div className={styles.skills__container}>
-              <Bubble className={classNames({
-                [styles.skills_card_1]:true,
-                [styles.hover_move_up]:true,
-              })}>
-                <div className={styles.skill_title}>
-                  Frontend
-                </div>
-                <Image
-                  src="/front.png"
-                  alt="front"
-                  width={250}
-                  height={400}
-                />
-              </Bubble>
-              <Bubble className={classNames({
-                [styles.skills_card_2]:true,
-                [styles.hover_move_up]:true,
-              })}>
-                <div className={styles.skill_title}>
-                  Backend
-                </div>
-                <Image
-                  src="/back.png"
-                  alt="back"
-                  width={230}
-                  height={400}
-                />
-              </Bubble>
-              <Bubble className={classNames({
-                [styles.skills_card_3]:true,
-                [styles.hover_move_up]:true,
-              })}>
-                <div className={styles.skill_title}>
-                  Database
-                </div>
-                <Image
-                  src="/database.png"
-                  alt="database"
-                  width={230}
-                  height={300}
-                />
-              </Bubble>
-              <Bubble className={classNames({
-                [styles.skills_card_4]:true,
-                [styles.hover_move_up]:true,
-              })}>
-                <div className={styles.skill_title}>
-                  Mobile
-                </div>
-                <Image
-                  src="/mobile.png"
-                  alt="mobile"
-                  width={230}
-                  height={80}
-                  />
-              </Bubble>
-              <Bubble className={classNames({
-                [styles.skills_card_5]:true,
-                [styles.hover_move_up]:true,
-              })}>
-                <div className={styles.skill_title}>
-                  Deployment
-                </div>
-                <Image
-                  src="/deployment.png"
-                  alt="deployment"
-                  width={230}
-                  height={120}
-                />
-              </Bubble>
-            </div>
+          <Skills />
         </div>
         <div className={styles.department_experiences} id="experiences">
           <div className={styles.title}>
